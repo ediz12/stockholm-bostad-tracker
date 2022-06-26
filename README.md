@@ -24,6 +24,9 @@ It will simply filter based on your settings/configurations and will allow you t
 
 See [the settings file](settings.py) to see available settings to configure.
  
+### Example Messages on Discord
+![A bunch of Discord embed messages with apartment details](resources/example.jpg?raw=true "Example Apartments")
+
 ## Version History
 
 * 0.1
