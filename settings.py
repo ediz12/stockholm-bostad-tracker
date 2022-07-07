@@ -14,8 +14,8 @@ BOSTAD_STOCKHOLM_DETAILS_URL = BOSTAD_STOCKHOLM_BASE_URL + "/Lista/Details?aid={
 GOOGLE_MAPS_LOCATION_URL = "https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
 
 # FILTERS
-UNWANTED_MUNICIPALITIES = ["Sigtuna", "Upplands-Bro", "Värmdö", "Haninge", "Huddinge", "Södertälje", "Håbo"]
-UNWANTED_DISTRICTS = ["Rinkeby", "Tensta", "Husby"]
+UNWANTED_MUNICIPALITIES = ["Sigtuna", "Upplands-Bro", "Värmdö", "Haninge", "Huddinge", "Södertälje", "Håbo", "Norrtälje"]
+UNWANTED_DISTRICTS = ["Rinkeby", "Tensta", "Husby", "Norrtälje"]
 
 MINIMUM_SQM = 50
 MINIMUM_ROOMS = 2
