@@ -14,17 +14,17 @@ BOSTAD_STOCKHOLM_DETAILS_URL = BOSTAD_STOCKHOLM_BASE_URL + "/Lista/Details?aid={
 GOOGLE_MAPS_LOCATION_URL = "https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
 
 # FILTERS
-UNWANTED_MUNICIPALITIES = ["Sigtuna", "Upplands-Bro", "Värmdö", "Haninge", "Huddinge", "Södertälje", "Håbo", "Norrtälje"]
-UNWANTED_DISTRICTS = ["Rinkeby", "Tensta", "Husby", "Norrtälje"]
+UNWANTED_MUNICIPALITIES = ["Sigtuna", "Upplands-Bro", "Värmdö", "Haninge", "Huddinge", "Södertälje", "Håbo", "Norrtälje", "Nykvarn", "Nynäshamn"]
+UNWANTED_DISTRICTS = ["Rinkeby", "Tensta", "Husby", "Norrtälje", "Nykvarn", "Nynäshamn", "Ösmo", "Barkaby"]
 
-MINIMUM_SQM = 50
+MINIMUM_SQM = 60
 MINIMUM_ROOMS = 2
 MINIMUM_FLOOR = 0
 MINIMUM_RENT = 0
-MAXIMUM_RENT = 15000
+MAXIMUM_RENT = 20000
 
 SHOW_YOUTH_APARTMENTS = True
 SHOW_COMMON_APARTMENTS = True
 SHOW_SENIOR_APARTMENTS = False
 SHOW_STUDENT_APARTMENTS = False
-SHOW_SHORT_TERM_APARTMENTS = False
+SHOW_SHORT_TERM_APARTMENTS = True
